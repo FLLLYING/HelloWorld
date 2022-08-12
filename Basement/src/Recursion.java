@@ -6,11 +6,11 @@ public class Recursion {
         System.out.println(recursion.recursion(10));
     }
 
-    public int recursion(int n){
-        if(n==1){
+    public int recursion(int n) {
+        if (n == 1) {
             return 1;
-        }else {
-            return n*recursion(n-1);
+        } else {
+            return n * recursion(n - 1);
         }
 
     }
